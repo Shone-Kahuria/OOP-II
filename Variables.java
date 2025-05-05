@@ -12,10 +12,10 @@ class Variables {
 
         amount = amount * (100 + interest) / 100;
         System.out.println("after 2 years: "+amount);
-        
+    }
 public static void main(String[] args) {
             (new Variables()).showInterest();
-        }
+        
     }
     
 }
