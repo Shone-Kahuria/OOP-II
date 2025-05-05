@@ -9,7 +9,7 @@ public class Choice {
         String drink = sc.nextLine().toLowerCase();
 
         System.out.println("Are you a loyalty Member?(yes/no)");
-        String loyaltyMember = sc.nextLine().toLowerCase();
+        String member = sc.nextLine().toLowerCase();
 
         boolean isMember = member.equals("yes");
         boolean validDrink = drink.equals("coffee") || drink.equals("tea") || drink.equals("juice");
